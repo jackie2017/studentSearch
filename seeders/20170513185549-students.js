@@ -13,8 +13,8 @@ module.exports = {
       }], {});
     */
     return queryInterface.bulkInsert('Students', [{
-      firstName: 'John',
-      lastName: 'Doe'
+      first_name: 'John',
+      last_name: 'Doe'
     }], {});
   },
 
